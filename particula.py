@@ -16,7 +16,7 @@ class Particula:
     
     def __str__(self):
         return (
-            "id: " + str(self.__id) + "\n"
+            "id: " + str(self.__id) + "\n" +
             "Origen en x: " + str(self.__origen_x) + "\n" + 
             "Origen en y: " + str(self.__origen_y) + "\n" +
             "Destino en x: " + str(self.__destino_x) +  "\n" + 
